@@ -87,26 +87,14 @@ h2 {
     border-radius: 4px;
 }
 
-/* 2340x1080 pixels at 476ppi */
-@media only screen 
-    and (device-width: 375px) 
-    and (device-height: 812px) 
-    and (-webkit-device-pixel-ratio: 3) { }
-  
-/* 2532x1170 pixels at 460ppi */
-@media only screen 
-   and (device-width: 390px) 
-   and (device-height: 844px) 
-   and (-webkit-device-pixel-ratio: 3) { }
+@media screen and (max-device-width:640px), screen and (max-width:640px) {
+    body {
+        width: 50%;
+    }
+}
 
-/* 1792x828px at 326ppi */
-@media only screen 
-    and (device-width: 414px) 
-    and (device-height: 896px) 
-    and (-webkit-device-pixel-ratio: 2) { }
-
-/* 2436x1125px at 458ppi */
-@media only screen 
-    and (device-width: 375px) 
-    and (device-height: 812px) 
-    and (-webkit-device-pixel-ratio: 3) { }
+@media screen and (max-device-width:500px), screen and (max-width:500px) {
+    body {
+        width: 50%;
+    }
+}
