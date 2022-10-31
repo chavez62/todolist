@@ -96,5 +96,6 @@ h2 {
 @media screen and (max-device-width:500px), screen and (max-width:500px) {
     body {
         width: 50%;
+        margin: auto;
     }
 }
