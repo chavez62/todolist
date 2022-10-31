@@ -99,3 +99,12 @@ h2 {
         margin: auto;
     }
 }
+
+@media screen and (max-device-width:515px), screen and (max-width:515px) {
+
+        .container {
+            width: 100%;
+            margin: 20px auto;
+            min-height: 100%;
+        }
+}
